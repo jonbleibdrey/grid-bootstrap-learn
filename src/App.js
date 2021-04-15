@@ -27,7 +27,7 @@ function App() {
             <DataComp name={data.name} last={data.lastName} hobbie={data.hobbie} love={data.love}/>
             <Comment/>
           </Col>
-          <Col xs={8} lg={"auto"} style={{ border: "5px solid blue" }}>
+          <Col xs={12} lg={"auto"} style={{ border: "5px solid blue" }}>
           <img src="../logo192.png" alt="hello" style={{display:"block", margin:"auto"}}/>
             second col: Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Aspernatur repellat non voluptate ea commodi officia deleniti omnis?
@@ -39,7 +39,7 @@ function App() {
           </Col>
         </Row >
         <Row>
-          <Col xs={6} lg={3} style={{ border: "5px solid purple" }}>
+          <Col xs={12} lg={3} style={{ border: "5px solid purple" }}>
           <img src="../logo192.png" alt="hello" style={{display:"block", margin:"auto"}}/>
             second row third col: Lorem ipsum dolor sit amet consectetur,
             adipisicing elit. A veritatis ipsa numquam, quo tempora similique
@@ -49,7 +49,7 @@ function App() {
             <DataComp name={data.name} last={data.lastName} hobbie={data.hobbie} love={data.love}/>
             <Comment/>
           </Col>
-          <Col xs={6} lg={{ span: 3, offset: 6 }} style={{ border: "5px solid green" }}>
+          <Col xs={12} lg={{ span: 3, offset: 6 }} style={{ border: "5px solid green" }}>
           <img src="../logo192.png" alt="hello" style={{display:"block", margin:"auto"}}/>
             second row first col: Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Perferendis, provident in. A placeat iure tempore
@@ -59,7 +59,7 @@ function App() {
             <DataComp name={data.name} last={data.lastName} hobbie={data.hobbie} love={data.love}/>
             <Comment/>
           </Col>
-          <Col xs={6} lg={'auto'} style={{ border: "5px solid yellow" }}>
+          <Col xs={12} lg={'auto'} style={{ border: "5px solid yellow" }}>
           <img src="../logo192.png" alt="hello" style={{display:"block", margin:"auto"}}/>
             second row second col: Lorem ipsum dolor sit amet, consectetur
             adipisicing elit. Minus ipsa rem recusandae! Alias aperiam officiis
