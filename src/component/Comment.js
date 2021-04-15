@@ -18,7 +18,8 @@ const Comment = () => {
                  type="text" placeholder="comment down below" value={comment} onChange={handleChange}/>
                 <button>submit</button>
             </form>
-            <h1>henrys comment: {comment}</h1>
+            <h1>henrys comment: 
+            {comment}</h1>
         </div>
     )
 }
