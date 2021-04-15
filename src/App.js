@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Container, Row, Col } from "react-bootstrap";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container fluid>
+        <Row>
+          <Col style={{border:"5px solid red", borderColor:"red"}}>first column</Col>
+          <Col style={{border:"5px solid red", borderColor:"gray"}}>second column</Col>
+        </Row>
+        <Row>
+          <Col style={{border:"5px solid red", borderColor:"blue"}}>second row first coulmn</Col>
+          <Col style={{border:"5px solid red", borderColor:"green"}}>second row second column</Col>
+          <Col style={{border:"5px solid red", borderColor:"purple"}}>second row third coulmn</Col>
+        </Row>
+      </Container>
     </div>
   );
 }
