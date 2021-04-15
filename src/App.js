@@ -3,9 +3,10 @@ import { Container, Col, Row } from "react-bootstrap";
 function App() {
   return (
     <div>
-      <Container style={{padding:"20px"}} fluid>
+      <Container style={{padding:"20px", border:"5px solid red"}} fluid>
         <Row className="justify-content-md-center">
-          <Col xs={12} lg={{ span: 4, offset: 1 }} style={{ border: "5px solid red" }}>
+          <Col xs={12} lg={4} style={{ border: "5px solid red" }}>
+            <img src="../logo192.png" alt="hello" style={{display:"block", margin:"auto"}}/>
             {" "}
             first col: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Neque quidem sequi voluptatem corrupti eum voluptatum veniam
@@ -13,6 +14,7 @@ function App() {
             sunt iste accusantium ex maiores error numquam.{" "}
           </Col>
           <Col xs={8} lg={"auto"} style={{ border: "5px solid blue" }}>
+          <img src="../logo192.png" alt="hello" style={{display:"block", margin:"auto"}}/>
             second col: Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Aspernatur repellat non voluptate ea commodi officia deleniti omnis?
             Ea repellat pariatur tenetur repudiandae hic magnam asperiores.
@@ -20,19 +22,22 @@ function App() {
           </Col>
         </Row >
         <Row>
-          <Col xs={6} lg={6} style={{ border: "5px solid purple" }}>
+          <Col xs={6} lg={3} style={{ border: "5px solid purple" }}>
+          <img src="../logo192.png" alt="hello" style={{display:"block", margin:"auto"}}/>
             second row third col: Lorem ipsum dolor sit amet consectetur,
             adipisicing elit. A veritatis ipsa numquam, quo tempora similique
             aut quasi, rerum voluptates consequuntur mollitia vitae. A officiis
             exercitationem voluptate hic consequatur! Asperiores, magnam.{" "}
           </Col>
-          <Col xs={6} lg={6} style={{ border: "5px solid green" }}>
+          <Col xs={6} lg={{ span: 3, offset: 6 }} style={{ border: "5px solid green" }}>
+          <img src="../logo192.png" alt="hello" style={{display:"block", margin:"auto"}}/>
             second row first col: Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Perferendis, provident in. A placeat iure tempore
             quidem nisi consequatur eaque praesentium aut voluptate dolorem?
             Eaque, aliquid magni voluptas esse itaque modi?{" "}
           </Col>
-          <Col xs={6} lg={5} style={{ border: "5px solid yellow" }}>
+          <Col xs={6} lg={'auto'} style={{ border: "5px solid yellow" }}>
+          <img src="../logo192.png" alt="hello" style={{display:"block", margin:"auto"}}/>
             second row second col: Lorem ipsum dolor sit amet, consectetur
             adipisicing elit. Minus ipsa rem recusandae! Alias aperiam officiis
             praesentium laboriosam magni, repellendus hic architecto eos a
