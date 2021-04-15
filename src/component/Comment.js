@@ -12,7 +12,7 @@ const Comment = () => {
             setComment(e.target.value)
         }
     return (
-        <div>
+        <div style={{border:"2px solid black"}}>
             <form onSubmit={handleSubmit}>
                 <textarea
                  type="text" placeholder="comment down below" value={comment} onChange={handleChange}/>

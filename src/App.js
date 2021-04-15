@@ -35,6 +35,7 @@ function App() {
             Quaerat vero quas iure cupiditate.{" "}
             <Liker/>
             <DataComp name={data.name} last={data.lastName} hobbie={data.hobbie} love={data.love}/>
+            <Comment/>
           </Col>
         </Row >
         <Row>
@@ -46,6 +47,7 @@ function App() {
             exercitationem voluptate hic consequatur! Asperiores, magnam.{" "}
             <Liker/>
             <DataComp name={data.name} last={data.lastName} hobbie={data.hobbie} love={data.love}/>
+            <Comment/>
           </Col>
           <Col xs={6} lg={{ span: 3, offset: 6 }} style={{ border: "5px solid green" }}>
           <img src="../logo192.png" alt="hello" style={{display:"block", margin:"auto"}}/>
@@ -55,6 +57,7 @@ function App() {
             Eaque, aliquid magni voluptas esse itaque modi?{" "}
             <Liker/>
             <DataComp name={data.name} last={data.lastName} hobbie={data.hobbie} love={data.love}/>
+            <Comment/>
           </Col>
           <Col xs={6} lg={'auto'} style={{ border: "5px solid yellow" }}>
           <img src="../logo192.png" alt="hello" style={{display:"block", margin:"auto"}}/>
@@ -64,11 +67,13 @@ function App() {
             eligendi quod tempore animi neque. Tempore, voluptatibus?{" "}
             <Liker/>
             <DataComp name={data.name} last={data.lastName} hobbie={data.hobbie} love={data.love}/>
+            <Comment/>
           </Col>
         </Row>
       </Container>
     </div>
   );
 }
+
 
 export default App;
