@@ -2,6 +2,7 @@ import { Container, Col, Row } from "react-bootstrap";
 import Liker from "../src/component/Liker"
 import React, {useState} from 'react'
 import DataComp from "./component/DataComp";
+import Comment from "../src/component/Comment"
 
 function App() {
   const [data, setData] = useState({
@@ -24,6 +25,7 @@ function App() {
             sunt iste accusantium ex maiores error numquam.{" "}
             <Liker/>
             <DataComp name={data.name} last={data.lastName} hobbie={data.hobbie} love={data.love}/>
+            <Comment/>
           </Col>
           <Col xs={8} lg={"auto"} style={{ border: "5px solid blue" }}>
           <img src="../logo192.png" alt="hello" style={{display:"block", margin:"auto"}}/>
